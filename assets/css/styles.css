@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+:root {
+    --titles-font: "Press Start 2P", system-ui;
+    --paragraph-font: "Jersey 15", sans-serif;
+}
+
+body{
+    background-image: url('/assets/img/bg4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.logo {
+    min-width: 30px;
+    max-width: 60px;
+    height: auto;
+} 
+
+.nav-container {
+    background: linear-gradient(to top, #5b258d, #53bfb8);
+    border: 3px solid blueviolet;
+    border-end-end-radius: 30px;
+    border-end-start-radius: 30px;
+
+}
+.color-bg {
+    background: linear-gradient(to top, #5b258d, #53bfb8);
+    border: 3px solid blueviolet;
+    border-start-end-radius: 30px;
+    border-start-start-radius: 30px;
+}
+
+.color-hero-section {
+    background: linear-gradient(to bottom, #1c0628, #4a148c);
+    border: 3px solid;
+    border-style: dashed;
+}
+
+.color-detail {
+    background-color: #66a3b4;
+    border: 3px solid blueviolet;
+    border-end-end-radius: 30px;
+    border-end-start-radius: 30px;
+}
+
+.logo-dots {
+    margin-top: 5px;
+    max-height: 30px;
+    min-width: 25px;
+    min-height: 15px;
+    max-width: 30px;    
+    gap: 1px;
+}
+
+
+.portfolio-img{
+    padding: 5px;
+    width: 100%; 
+    height: 300px;
+    object-fit: cover;
+    object-position: top; 
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: #53bfb8;
+}
+
+.titles {
+    font-family: var(--titles-font);
+    font-size: 25px;
+    font-weight: 300;   
+}
+
+.paragraph {
+    font-family: var(--paragraph-font);
+    font-size: 50px;
+    font-weight: 300;    
+}
+
+.profile-img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
