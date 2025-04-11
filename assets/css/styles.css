@@ -20,6 +20,8 @@ body{
     min-width: 30px;
     max-width: 60px;
     height: auto;
+    margin: 5px;
+    padding: 2px;
 } 
 
 .nav-container {
@@ -52,10 +54,11 @@ body{
 .logo-dots {
     margin-top: 5px;
     max-height: 30px;
-    min-width: 25px;
+    min-width: 15px;
     min-height: 15px;
     max-width: 30px;    
-    gap: 1px;
+    margin-left: 1px;
+    padding: 2px;
 }
 
 
@@ -70,11 +73,19 @@ body{
     border-color: #53bfb8;
 }
 
+.footer-titles {
+    font-family: var(--paragraph-font);
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
 .titles {
     font-family: var(--titles-font);
-    font-size: 25px;
-    font-weight: 300;   
+    font-size: 20px;
+    font-weight: 300; 
 }
+
 
 .paragraph {
     font-family: var(--paragraph-font);
@@ -86,4 +97,3 @@ body{
     max-width: 500px;
     max-height: 500px;
 }
-
